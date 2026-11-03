@@ -71,6 +71,7 @@ Si un repo no encaja en ninguno, no se inventa un prefijo nuevo: se usa `lab-` c
 | [lab-report-audit](https://github.com/Carlos-PC05/lab-report-audit) | Laboratorio de auditoría y reportes |
 | [lab-burp-suite-demo](https://github.com/Carlos-PC05/lab-burp-suite-demo) | Demo de formulario para el proyecto final de ciberseguridad |
 | [lab-api-basica](https://github.com/Carlos-PC05/lab-api-basica) | API básica sin IA |
+| [lab-react-tutorial](https://github.com/Carlos-PC05/lab-react-tutorial) | Aprendiendo React + TypeScript |
 
 ## Excepciones
 
@@ -116,3 +117,4 @@ GitHub mantiene redirecciones de las URLs antiguas, pero **no reutilizar nunca u
 | reportaudit-lab | lab-report-audit |
 | BurpSuitDemo | lab-burp-suite-demo |
 | api-sin-IA | lab-api-basica |
+| ReactTutorial | lab-react-tutorial |
