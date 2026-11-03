@@ -19,6 +19,7 @@ Criterio único para nombrar y ordenar mis repos. Sirve para que el perfil se le
 | `ml-` | Modelos, notebooks, visión por computador, ciencia de datos | `ml-wound-segmentation` |
 | `ai-` | Aplicaciones con LLM: agentes, RAG, asistentes | `ai-rag-motor` |
 | `web-` | Webs, portfolios, maquetación, páginas de cliente | `web-portfolio` |
+| `pr-` | **Proyectos personales privados**: apps y sistemas en desarrollo, sin publicar | `pr-contabilidad` |
 | `lab-` | Prácticas sueltas, demos, pruebas de concepto | `lab-oracle-db` |
 | `notes-` | Apuntes y vaults | `notes-vault` |
 
@@ -73,6 +74,15 @@ Si un repo no encaja en ninguno, no se inventa un prefijo nuevo: se usa `lab-` c
 | [lab-api-basica](https://github.com/Carlos-PC05/lab-api-basica) | API básica sin IA |
 | [lab-react-tutorial](https://github.com/Carlos-PC05/lab-react-tutorial) | Aprendiendo React + TypeScript |
 
+### `pr-` — Proyectos personales privados
+
+Repos privados: proyectos propios en desarrollo. No se publican hasta que estén terminados; si uno se hace público, se le cambia el prefijo al tema que le corresponda.
+
+| Repositorio | Descripción |
+|---|---|
+| [pr-automatizacion-facturas](https://github.com/Carlos-PC05/pr-automatizacion-facturas) | Automatización de contabilidad con Python |
+| [pr-contabilidad](https://github.com/Carlos-PC05/pr-contabilidad) | Gestión de contabilidad |
+
 ## Excepciones
 
 | Repositorio | Motivo |
@@ -85,7 +95,7 @@ Si un repo no encaja en ninguno, no se inventa un prefijo nuevo: se usa `lab-` c
 ## Cómo añadir un repositorio nuevo
 
 1. Elegir el tema de la tabla.
-2. `gh repo create Carlos-PC05/<tema>-<nombre> --public`
+2. `gh repo create Carlos-PC05/<tema>-<nombre> --public` (o `--private` con prefijo `pr-`)
 3. Añadirlo al índice de este README.
 4. Poner descripción en GitHub: se ve en el perfil y en los listados.
 5. Si es una web publicable, activar Pages y apuntar la URL en el índice.
@@ -118,3 +128,5 @@ GitHub mantiene redirecciones de las URLs antiguas, pero **no reutilizar nunca u
 | BurpSuitDemo | lab-burp-suite-demo |
 | api-sin-IA | lab-api-basica |
 | ReactTutorial | lab-react-tutorial |
+| automatizacion-facturas | pr-automatizacion-facturas |
+| contabilidad | pr-contabilidad |
